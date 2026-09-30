@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Login</title>
+<script>
+Function login()
+{
+let username=document.getElementById("username").value;
+let password=document.getElementById("password").value;
+if(username=="admin"&&password=="1234")
+else
+{alert("Invalid login");
+}
+}
+<style>
+body{
+Font-Family:Arial;
+background-color:lightblue;
+}
+.login-box{
+width:300px;
+margin:100px auto;
+padding:25px;
+background-color:white;
+border-radius:10px;
+}
+h2{
+text-align:center;
+color:blue"
+}
+input{
+width:100%;
+padding:10px;
+margin:8px;
+box-sizing:border-box;
+}
+button
+{
+width:100%;
+padding:10px;
+background-color:blue;
+color:white;
+border:none;
+border-radius:5px;
+}
+</style>
+</head>
+<body>
+<div class="login-box">
+<h2>Student Login</h2>
+<input type="text" id="username" placeholder="username">
+<input type="password" placeholder="password">
+<button on click="login()">
+login</button>
+</div>
+</body>
+</html>
